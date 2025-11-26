@@ -37,7 +37,6 @@ const [transactions, setTransactions] = useState ([]);
             <Route path="/sendmoney" element={<SendMoney customers={customers} setCustomers={setCustomers} setTransactions={setTransactions} />} />
             <Route path="transactions" element={<Transactions transactions={transactions}/>} />
             <Route path="/createuser" element={<CreateUser customers={customers} setCustomers={setCustomers} />} />
-            <Route path="/datatables" element={<DataTable customers={customers} />} />
             <Route path="/budget" element={<BudgetTab customers={customers} setCustomers={setCustomers}/>}/>
           </Routes>
         </div>
