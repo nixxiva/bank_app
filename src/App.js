@@ -6,7 +6,6 @@ import Customers from './Components/CustomerTab';
 import Deposit from './Components/Deposit';
 import Withraw from './Components/Withraw';
 import SendMoney from './Components/SendMoney';
-import DataTable from './Assets/DataTable';
 import Transactions from './Components/Transactions';
 import CreateUser from './Components/CreateUser';
 import { ToastContainer } from 'react-toastify';
